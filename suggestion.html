@@ -1,0 +1,97 @@
+<nav>
+  <a href="index.html">Home</a>
+  <a href="how.html">How It Works</a>
+  <a href="features.html">Features</a>
+  <a href="impact.html">Our Impact</a>
+  <a href="contact.html">Contact</a>
+  <a href="suggestions.html">Suggestions</a>
+</nav>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Suggestions | SustainAbite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { margin: 0; font-family: 'Segoe UI', Arial, sans-serif; background: linear-gradient(120deg,#f0fbf9 0%,#e2ffe5 100%); color:#15482b; }
+    header { background: linear-gradient(90deg,#47af3b 73%,#23b89a 100%); color:#fff; padding: 36px 0 16px 0; text-align:center; }
+    nav { background: #23b89a; padding: 10px 0; text-align:center; }
+    nav a { color:#fff; margin:0 15px; text-decoration:none; font-weight:600; text-transform:uppercase; }
+    .main { max-width: 700px; margin: 30px auto 32px auto; background: #fff; padding: 38px 28px; border-radius: 16px; box-shadow: 0 4px 32px rgba(71,175,59,0.11); }
+    h1 { color: #23b89a; text-align: center; margin-bottom: 20px; }
+    form { display: flex; flex-direction: column; gap: 14px; }
+    input, textarea {
+      font-family: inherit;
+      font-size: 1rem;
+      border: 1.5px solid #23b89a;
+      border-radius: 8px;
+      padding: 10px 14px;
+      resize: vertical;
+    }
+    input:focus, textarea:focus {
+      border-color: #15482b;
+      outline: none;
+    }
+    button {
+      max-width: 180px;
+      align-self: center;
+      padding: 14px 28px;
+      background: linear-gradient(90deg,#47af3b,#23b89a 170%);
+      border: none;
+      border-radius: 28px;
+      color: white;
+      font-weight: 700;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: background 0.17s;
+    }
+    button:hover {
+      background: linear-gradient(90deg,#23b89a 70%,#47af3b 140%);
+    }
+    p.description {
+      text-align: center;
+      font-size: 1.1rem;
+      margin-bottom: 22px;
+      color: #15482b;
+    }
+    footer {
+      text-align: center;
+      padding: 25px 0 12px;
+      background: #e6f5e5;
+      color: #15482b;
+      font-size: 1.03rem;
+      border-top: 1px solid #bbefd4;
+      margin-top: 40px;
+    }
+    @media (max-width: 600px) {
+      .main { padding: 25px 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Suggestions for SustainAbite</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="how.html">How It Works</a>
+    <a href="features.html">Features</a>
+    <a href="membership.html">Membership</a>
+    <a href="contact.html">Contact</a>
+    <a href="suggestions.html">Suggestions</a>
+  </nav>
+  <div class="main">
+    <p class="description">Your ideas and feedback help us do better. Please share any suggestions you have for SustainAbite.</p>
+    <form>
+      <input type="text" name="name" placeholder="Your Name (optional)" />
+      <input type="email" name="email" placeholder="Your Email (optional)" />
+      <textarea name="suggestion" placeholder="Your Suggestion..." required></textarea>
+      <button type="submit">Submit Suggestion</button>
+    </form>
+  </div>
+  <footer>
+    &copy; 2024 SustainAbite &bull; Designed by Yashsavi Sahu &amp; Daksh Madhyani
+  </footer>
+</body>
+</html>
